@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article article-type="research-article" dtd-version="1.1" xml:lang="zh" xsi:noNamespaceSchemaLocation="https://jats.nlm.nih.gov/publishing/1.1/xsd/JATS-journalpublishing1.xsd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<front>
+		<journal-meta>
+			<!-- 在Pubmed数据库中的名称-->
+			<journal-id journal-id-type="nlm-ta">ZHONGGUO NONGXUE TONGBAO</journal-id>
+			<!-- 出版商赋予期刊ID-->
+			<journal-id journal-id-type="publisher-id"></journal-id>
+			<!-- 在PMC数据库中的名称-->
+			<journal-id journal-id-type="pmc"></journal-id>
+			<journal-title-group>
+				<!-- 期刊中文全称-->
+				<journal-title>中国农学通报</journal-title>
+				<!-- 期刊英文全称-->
+				<journal-title xml:lang="en">Chinese Agricultural Science Bulletin</journal-title>
+				<!-- 期刊在PubMed中的英文缩写-->
+				<abbrev-journal-title abbrev-type="nlm-ta"></abbrev-journal-title>
+				<!-- 期刊英文缩写-->
+				<abbrev-journal-title abbrev-type="publisher" xml:lang="en"></abbrev-journal-title>
+				<!-- 期刊中文缩写-->
+				<abbrev-journal-title abbrev-type="publisher">中国农学通报</abbrev-journal-title>
+			</journal-title-group>
+			<!-- 期刊ISSN号-->
+			<issn pub-type="ppub">1000-6850</issn>
+			<!-- 期刊CN号-->
+			<issn pub-type="cn">11-1984/S</issn>
+			<publisher>
+				<!--出版商英文名称-->
+				<publisher-name xml:lang="en">Chinese Association of Agricultural Science Societies</publisher-name>
+				<!--出版商英文地址 -->
+				<publisher-loc xml:lang="en">100710,No.22, Maizidian Street，Chaoyang District，Beijing, P.R.CHINA</publisher-loc>
+				<!-- 出版商中文名称-->
+				<publisher-name>中国农学会</publisher-name>
+				<!--出版商中文地址-->
+				<publisher-loc>100125，北京市朝阳区麦子店街22号</publisher-loc>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id"></article-id>
+			<article-id pub-id-type="doi">XX.XXXX/j.issn.1000-6850.2017.01.001</article-id>
+			<article-categories>
+				<subj-group subj-group-type="clc">
+					<subject></subject>
+				</subj-group>
+				<subj-group subj-group-type="dc">
+					<subject></subject>
+				</subj-group>
+				<subj-group subj-group-type="heading">
+					<subject>XXXX</subject>
+				</subj-group>
+				<subj-group subj-group-type="heading" xml:lang="en">
+					<subject>XXXX</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>野巴旦杏<italic>AlsCBF</italic>基因的克隆及生物信息学分析</article-title>
+				<trans-title-group>
+					<trans-title xml:lang="en">Cloning and Bioinformatic Analysis of <italic>AlsCBF</italic> Gene from <italic>Amygdalus Ledebouriana</italic> Schleche</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author" xlink:type="simple">
+					<name-alternatives>
+						<string-name>李宁</string-name>
+						<name name-style="western">
+							<surname>Li</surname>
+							<given-names>Ning</given-names>
+						</name>
+					</name-alternatives>
+					<bio content-type="author">
+						<p>李宁，男，1985年出生，新疆乌鲁木齐人，助理研究员，硕士，主要从事园艺植物生物技术研究。通信地址：830091 新疆乌鲁木齐市沙区南昌路403 新疆农业科学院，Tel：区号-000000，E-mail：liningbio@163.com。</p>
+					</bio>
+					<xref ref-type="aff" rid="aff1">
+						<sup>1</sup>
+					</xref>
+					<xref ref-type="aff" rid="aff2">
+						<sup>2</sup>
+					</xref>
+				</contrib>
+				<contrib contrib-type="author" xlink:type="simple">
+					<name-alternatives>
+						<string-name>李疆</string-name>
+						<name name-style="western">
+							<surname>Li</surname>
+							<given-names>Jiang</given-names>
+						</name>
+					</name-alternatives>
+					<xref ref-type="aff" rid="aff1">
+						<sup>1</sup>
+					</xref>
+					<xref ref-type="corresp" rid="cor1">
+						<sup>*</sup>
+					</xref>
+				</contrib>
+				<contrib contrib-type="author" xlink:type="simple">
+					<name-alternatives>
+						<string-name>刘立强</string-name>
+						<name name-style="western">
+							<surname>Liu</surname>
+							<given-names>Liqiang</given-names>
+						</name>
+					</name-alternatives>
+					<xref ref-type="aff" rid="aff1">
+						<sup>1</sup>
+					</xref>
+				</contrib>
+				<contrib contrib-type="author" xlink:type="simple">
+					<name-alternatives>
+						<string-name>罗淑萍</string-name>
+						<name name-style="western">
+							<surname>Luo</surname>
+							<given-names>Shuping</given-names>
+						</name>
+					</name-alternatives>
+					<xref ref-type="aff" rid="aff1">
+						<sup>1</sup>
+					</xref>
+				</contrib>
+				<aff-alternatives id="aff1">
+					<aff>新疆农业大学，乌鲁木齐 830052</aff>
+					<aff xml:lang="en">
+						<italic>Xinjiang Agricultural University, Urumqi 830052</italic>
+					</aff>
+				</aff-alternatives>
+				<aff-alternatives id="aff2">
+					<aff>新疆农业科学院，乌鲁木齐 830091</aff>
+					<aff xml:lang="en">
+						<italic>Xinjiang Academy of Agricultural Science, Urumqi 830052</italic>
+					</aff>
+				</aff-alternatives>
+			</contrib-group>
+			<author-notes>
+				<corresp id="cor1">李疆，男，1958年出生，籍贯，副教授，博士生导师，博士，主要从事果树种质资源及生物技术的教学与科研工作。通信地址：830052 新疆乌鲁木齐市沙依巴克区农大东路311号 新疆农业大学林学与园艺学院，Tel：区号-000000，E-mail：lijiangxj@163.com。</corresp>
+			</author-notes>
+			<pub-date pub-type="ppub">
+				<day>30</day>
+				<month>06</month>
+				<month xml:lang="en">06</month>
+				<year>2017</year>
+			</pub-date>
+			<pub-date pub-type="epub">
+				<day>30</day>
+				<month>06</month>
+				<month xml:lang="en">06</month>
+				<year>2017</year>
+			</pub-date>
+			<volume>1</volume>
+			<issue>1</issue>
+			<fpage>1</fpage>
+			<lpage>8</lpage>
+			<page-range></page-range>
+			<history>
+				<date date-type="received">
+					<day>10</day>
+					<month>07</month>
+					<month xml:lang="en">07</month>
+					<year>2015</year>
+				</date>
+				<date date-type="revised">
+					<day>DD</day>
+					<month>MM</month>
+					<month xml:lang="en">MM</month>
+					<year>YYYY</year>
+				</date>
+				<date date-type="accepted">
+					<day>DD</day>
+					<month>MM</month>
+					<year>YYYY</year>
+				</date>
+			</history>
+			<abstract abstract-type="key-points">
+				<p>旨在克隆转录因子CBF并对其进行生物信息学分析得到该基因相关信息。采用RT-PCR和RACE方法从野巴旦杏中克隆到植物抗逆途径关键转录因子CBF基因全长，命名为AlsCBF，GenBank登录号为HQ908653，该基因全长1171 bp，其中编码区长714 bp，编码237个氨基酸，其蛋白的分子式为C<sub>1156</sub>H<sub>1832</sub>N<sub>332</sub>O<sub>356</sub>S<sub>15</sub>，相对分子质量为26.5581 kDa，理论等电点为6.76，该蛋白为亲水性蛋白，无信号肽存在；其蛋白质二级结构以α-螺旋、β-折叠和无规卷曲为主。肽链可能含有8处丝氨酸磷酸化位点，1处苏氨酸磷酸化位点。三维结构预测表明其符合AP2结构域模型特点。</p>
+			</abstract>
+			<trans-abstract abstract-type="key-points" xml:lang="en">
+				<p>The purpose of this study was to clone the transcription factor CBF2 and analysis of the gene related information of the bioinformatics. The full-length of cDNA of plant defense pathway transcription factor, was isolated from Amygdalus Ledebouriana Schleche by RT-PCR and RACE. Which was named AlsCBF and submitted to GenBank (Accession number: HQ908653). With the bioinformatics analysis, the cloned AlsCBF gene was 1171 bp including code segment 714 bp, encoding 237 amino acids, the predicted AlsCBF protein’s molecular formula was C<sub>1156</sub>H<sub>1832</sub>N<sub>332</sub>O<sub>356</sub>S<sub>15</sub>, whose relative molecular mass was 26.5581 kDa and isoelectric point was 6.76. It was predicted that this protein was hydrophilic protein, and there was no signal peptide. Characteristic prediction results indicated that the secondary structure of AlsCBF protein mainly included α-helix, β-sheet and random coil. And there were eightt serine sites, one threonine sites. Three- dimensional structure predicted that AlsCBF protein confirmed the characteristics of AP2 domain model.</p>
+			</trans-abstract>
+			<kwd-group kwd-group-type="author">
+				<kwd>野巴旦杏</kwd>
+				<kwd>基因克隆</kwd>
+				<kwd>生物信息学</kwd>
+			</kwd-group>
+			<kwd-group kwd-group-type="author" xml:lang="en">
+				<kwd>
+					<italic>Amygdalus Ledebouriana</italic> Schleche</kwd>
+				<kwd>
+					<italic>AlsCBF</italic>
+				</kwd>
+				<kwd>gene cloning</kwd>
+				<kwd>bioinformatics</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>国家自然科学基金项目</funding-source>
+					<award-id>31260186</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>新疆维吾尔自治区“十二五”重大科技专项项目</funding-source>
+					<award-id>201130102-1</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>新疆维吾尔自治区果树学重点学科基金</funding-source>
+				</award-group>
+			</funding-group>
+			<funding-group xml:lang="en"></funding-group>
+			<counts>
+				<fig-count count="9"></fig-count>
+				<table-count count="1"></table-count>
+				<equation-count count="0"></equation-count>
+				<ref-count count="17"></ref-count>
+				<page-count count="8"></page-count>
+				<word-count count="11423"></word-count>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec id="s1">
+			<title>0 引言</title>
+			<p>巴旦杏(<italic>Amygdalus communis</italic> L.)为世界著名的四大干果之一，属蔷薇科李亚科桃属扁桃亚属植物，落叶乔木。在中国，栽培巴旦杏的分布和产区位于新疆的南部，这里具有巴旦杏生长发育得天独厚的资源优势和生态条件<sup>[<xref ref-type="bibr" rid="R1">1</xref>]</sup>，目前的栽培面积逾5×10<sup>4</sup> hm<sup>2</sup>。但是近年来，南疆的巴旦杏冻害发生频繁、范围大、面积广、危害程度严重。而生长在新疆北部塔城山区的野巴旦杏却能够忍耐近-30℃的低温<sup>[<xref ref-type="bibr" rid="R2">2</xref>,<xref ref-type="bibr" rid="R3">3</xref>]</sup>。植物在低温环境下的胁迫，植物体内对逆境应答信号在植物体内进行传导，达到调控应答和抵御基因表达，使植物自身能够及时适应低温胁迫的改变<sup>[<xref ref-type="bibr" rid="R4">4</xref>]</sup>，因此，了解野巴旦杏抵御抗寒分子机理对于分子改良巴旦杏抗寒性有着非常重要的意义。</p>
+			<p>在植物体内低温逆境信号传导过程中，CBF(C-repeat binding factor)转录因子是感受上游传递的信号、并将信号向下游传递的调控因子，在增强植物适应低温及抵御低温的能力中具有非常重要的作用<sup>[<xref ref-type="bibr" rid="R5">5</xref>]</sup>。CBF转录因子可以与CRT/DRE顺式作用元件特异性结合，诱导启动子中具有这一调控元件的基因的表达，促进这几类物质的合成与积累，从而提高植物的抗寒性<sup>[<xref ref-type="bibr" rid="R6">6</xref>,<xref ref-type="bibr" rid="R7">7</xref>]</sup>。这类基因还参与冷驯化过程的信号转导并负责激发植物抵抗冷胁迫的效应<sup>[<xref ref-type="bibr" rid="R8">8</xref>,<xref ref-type="bibr" rid="R9">9</xref>,<xref ref-type="bibr" rid="R10">10</xref>]</sup>。Hsieh等<sup>[<xref ref-type="bibr" rid="R11">11</xref>]</sup>将<italic>AtCBF1</italic>基因转入番茄，结果表明其自由基减少，脯氨酸含量升高，植株的耐低温性明显增强，并且这种抗性可以稳定遗传。冯勋伟<sup>[<xref ref-type="bibr" rid="R12">12</xref>]</sup>将结缕草<italic>ZjCBF</italic>基因转入拟南芥中，通过低温冷处理实验发现，不论是否经过冷驯化，转基因植株抗寒性增强。因此，可以认为<italic>CBF</italic>基因对增强植物的抗寒性起重要作用。有关野巴旦杏中<italic>CBF</italic>基因的研究迄今未见有报道，因此笔者以新疆野巴旦杏为试材，以RACE技术克隆获得了新疆野巴旦杏<italic>CBF</italic>基因序列，并命名为<italic>AlsCBF</italic>，在此基础上对其生物学功能进行了预测分析，为将来进一步研究其生物化学特性、代谢表达及功能奠定了基础，同时为栽培巴旦杏分子育种提供依据。</p>
+		</sec>
+		<sec id="s2">
+			<title>1 材料和方法</title>
+			<sec id="s2a">
+				<title>1.1 试验材料与试剂</title>
+				<p>以新疆裕民县巴尔鲁克山“新疆野生巴旦杏林自然保护区”的野巴旦杏为供试材料，种子经层积处理发芽，幼苗经低温持续诱导后，将叶片分别迅速投入液氮中速冻后放入-80℃冰箱保存备用。</p>
+				<p>大肠杆菌菌株DH5α由本实验室<bold>（请将实验室的具体名称列出）</bold>保存。反转录、pMD19-T载体及SYBR Premix Ex Taq<sup>TM</sup>购自TaKaRa公司，RNA提取所用试剂、胶回收、Marker及质粒提取试剂盒等购自天根生物公司，引物合成及测序工作由上海生工生物工程服务有限公司完成。</p>
+			</sec>
+			<sec id="s2b">
+				<title>1.2 cDNA的制备</title>
+				<p>取野巴旦杏嫩叶，放入处理过的研钵中直接碾磨，并按Trizol试剂法操作说明提取总RNA并反转录成cDNA保存于-37℃。</p>
+			</sec>
+			<sec id="s2c">
+				<title>1.3 AlsCBF基因全长克隆</title>
+				<p>根据GenBank中检索到的CBF保守氨基酸序列设计一对特异引物CBF-F和CBF-R（表1），以RNA反转录产物cDNA第一链为模板进行中间片段的扩增。凝胶回收与预期片段大小一致的泳带，连接克隆载体并转化感受态细胞，通过蓝白斑筛选及菌液PCR扩增鉴定阳性克隆后，进行测序。</p>
+				<p>根据测序结果分别设计扩增片段的3′RACE上游特异性引物3′RACE-F和3′RACE-R，和5′-RACE下游引物5′RACE-F和5′RACE-R（表1），RACE试剂盒配备的引物和酶扩增基因的3′和5′末端序列，按试剂盒说明具体操作。测序后，把获得的片段用Vector NTI Suite 8.0进行连接并设计引物CBT-F和CBT-R，以cDNA为模板扩增获得全长基因（表1）。通过PCR扩增，对<italic>AlsCBF</italic>的cDNA全长序列进行验证。</p>
+				<table-wrap>
+					<object-id pub-id-type="doi">XX.XXXX/j.issn.1000-6850.2017.01.001.T001</object-id>
+					<label>表1</label>
+					<caption>
+						<p>试验所用引物序列</p>
+					</caption>
+					<alternatives>
+						<graphic specific-use="big" xlink:href="file://alternativeImage/casb15070064-T001.jpg"></graphic>
+						<graphic specific-use="small" xlink:href="file://alternativeImage/casb15070064-T001c.jpg"></graphic>
+						<table border="1">
+							<thead>
+								<tr>
+									<th align="center">引物名称</th>
+									<th align="center">引物序列</th>
+									<th align="center">备注</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="center">F1</td>
+									<td align="center">GCTGTGATGGCTGCTCGTG</td>
+									<td rowspan="2" align="center">保守片段</td>
+								</tr>
+								<tr>
+									<td align="center">R1</td>
+									<td align="center">CAAACATTTCCTCCTCATCC</td>
+								</tr>
+								<tr>
+									<td align="center">3′RACE-F</td>
+									<td align="center">TATCCGACGGCTGAGATGGC</td>
+									<td rowspan="2" align="center">3′-RACE引物</td>
+								</tr>
+								<tr>
+									<td align="center">3′RACE-R</td>
+									<td align="center">CCTTGCCGGCTTCCATGGAT</td>
+								</tr>
+								<tr>
+									<td align="center">5′RACE-F</td>
+									<td align="center">CTTCTTCTTGTTGGGCTCTC</td>
+									<td rowspan="2" align="center">5′-RACE引物</td>
+								</tr>
+								<tr>
+									<td align="center">5′RACE-R</td>
+									<td align="center">TCAACTCACACACCCACTTGT</td>
+								</tr>
+								<tr>
+									<td align="center">CBT-F</td>
+									<td align="center">ATGGACATGTTCTTCTCTCAACTTT</td>
+									<td rowspan="2" align="center">全长引物</td>
+								</tr>
+								<tr>
+									<td align="center">CBT-R</td>
+									<td align="center">TCAGATAGAGAAACTCCACAGG</td>
+								</tr>
+							</tbody>
+						</table>
+					</alternatives>
+				</table-wrap>
+			</sec>
+			<sec id="s2d">
+				<title>1.4 AlsCBF基因的生物信息学分析</title>
+				<p>将测序得到的核酸序列在NCBI(http://www.ncbi.nlm.nih.gov)上用BLAS进行序列相似性分析比对，用ORF Finder寻找最大开放阅读框(ORF)；用Protparam分析<italic>AlsCBF</italic>基因编码蛋白的氨基酸序列组成；使用Protparam(http://web.expasy.org/protparam/)分析<italic>AlsCBF</italic>编码蛋白的氨基酸序列组成、相对分子质量、等电点等理化性质；通过软件DNAman进行氨基酸序列比对；利用MEGA4.0软件进行系统进化树的构建；使用SignalP4.1 Server在线软件(http://www.cbs.dtu.dk/services/SignalP/)对AlsCBF蛋白进行信号肽分析；蛋白磷酸化位点分析采用KinasePhos(http://kinasephos.mbc.nctu.edu.tw/)；使用Protscale对AlsCBF的氨基酸序列进行疏水性/亲水性预测；使用BaCelLo在线软件(http://gpcr2.biocomp.unibo.it/bacello/pred.htm)对<italic>AlsCBF</italic>氨基酸进行亚细胞定位分析；利用SOPMA(http://npsa-pbil.ibcp.fr/cgi-bin/npsa_aut omat.pl?page=npsa_sopma.html)在线预测<italic>AlsCBF</italic>蛋白的二级结构；使用SWISS-MODEL(http://swissmodel.expasy.org/)构建<italic>AlsCBF</italic>蛋白的三维结构。</p>
+			</sec>
+		</sec>
+		<sec id="s3">
+			<title>2 结果与分析</title>
+			<sec id="s3a">
+				<title>2.1 AlsCBF全长cDNA克隆及序列分析</title>
+				<p>根据GenBank中其他物种<italic>CBF</italic>保守序列设计出的简并引物，以低温处理野巴旦杏叶片的cDNA为模板进行PCR扩增后获得了一条长为360 bp的cDNA片段（图1A）。根据中间片段设计特异性引物，以低温处理野巴旦杏叶片的cDNA为模板，在3′和5′端分别扩增出678 bp和743 bp的cDNA片段（图1B；图1C）。通过序列分析软件拼接后获得含有一个完整编码区的基因序列，最终获得长度为1171 bp的野巴旦杏抗寒<italic>CBF</italic>基因全长cDNA序列（图1D），命名为<italic>AlsCBF</italic>，GenBank登录号为HQ908653，经ORF软件分析，确定ORF长714 bp，编码237个氨基酸（图2）。经BLAST分析表明，该片段含有CBF高度保守的AP2/EREBP特异结构域（图3），与中国梅CBF的同源性最高，其编码的氨基酸序列相似度达95%（图4）。</p>
+				<fig position="float">
+					<object-id pub-id-type="doi">XX.XXXX/j.issn.1000-6850.2017.01.001.F001</object-id>
+					<label>图1</label>
+					<caption>
+						<title>野巴旦杏AlsCBF扩增电泳图</title>
+					</caption>
+					<abstract abstract-type="note">
+						<p>M：DNA marker；A：AlsCBF中间片段扩增产物；B：3′RACE扩增产物；C：5′RACE扩增产物；D：cDNA全长扩增产物</p>
+					</abstract>
+					<alternatives>
+						<graphic id="gc9" specific-use="print" xlink:href="file://images/casb15070064_image1.jpeg">
+							<?fx-imagestate rid="gc9" width="144.903472" height="57.555694"?>
+						</graphic>
+						<graphic specific-use="big" xlink:href="file://alternativeImage/casb15070064-F001.jpg"></graphic>
+						<graphic specific-use="small" xlink:href="file://alternativeImage/casb15070064-F001c.jpg"></graphic>
+					</alternatives>
+				</fig>
+				<fig position="float">
+					<object-id pub-id-type="doi">XX.XXXX/j.issn.1000-6850.2017.01.001.F002</object-id>
+					<label>图2</label>
+					<caption>
+						<title>野巴旦杏AlsCBF cDNA全长核苷酸与推导氨基酸序列</title>
+					</caption>
+					<alternatives>
+						<graphic id="gc8" specific-use="print" xlink:href="file://images/casb15070064_image2_emf.pdf">
+							<?fx-imagestate rid="gc8" width="152.258888" height="176.036111" left="-2252" right="-1784"?>
+						</graphic>
+						<graphic specific-use="big" xlink:href="file://alternativeImage/casb15070064-F002.jpg"></graphic>
+						<graphic specific-use="small" xlink:href="file://alternativeImage/casb15070064-F002c.jpg"></graphic>
+					</alternatives>
+				</fig>
+				<fig position="float">
+					<object-id pub-id-type="doi">XX.XXXX/j.issn.1000-6850.2017.01.001.F003</object-id>
+					<label>图3</label>
+					<caption>
+						<title>保守域预测</title>
+					</caption>
+					<alternatives>
+						<graphic id="gc7" specific-use="print" xlink:href="file://images/casb15070064_image3.jpeg">
+							<?fx-imagestate rid="gc7" width="146.385138" height="22.030972"?>
+						</graphic>
+						<graphic specific-use="big" xlink:href="file://alternativeImage/casb15070064-F003.jpg"></graphic>
+						<graphic specific-use="small" xlink:href="file://alternativeImage/casb15070064-F003c.jpg"></graphic>
+					</alternatives>
+				</fig>
+				<fig position="float">
+					<object-id pub-id-type="doi">XX.XXXX/j.issn.1000-6850.2017.01.001.F004</object-id>
+					<label>图4</label>
+					<caption>
+						<title>野巴旦杏AlsCBF氨基酸序列与其他植物CBF氨基酸序列序列对比</title>
+					</caption>
+					<abstract abstract-type="note">
+						<p>Als：野巴旦杏；At：拟南芥；Ct：柑橘；Eg：桉树；Pc：樱桃；Pm：中国梅；Pp：碧桃；Pt：毛白杨；Vv：葡萄。红色划线表示CBF蛋白高度保守序列</p>
+					</abstract>
+					<alternatives>
+						<graphic id="gc6" specific-use="print" xlink:href="file://images/casb15070064_image4.jpeg">
+							<?fx-imagestate rid="gc6" width="146.385138" height="120.385416"?>
+						</graphic>
+						<graphic specific-use="big" xlink:href="file://alternativeImage/casb15070064-F004.jpg"></graphic>
+						<graphic specific-use="small" xlink:href="file://alternativeImage/casb15070064-F004c.jpg"></graphic>
+					</alternatives>
+				</fig>
+			</sec>
+			<sec id="s3b">
+				<title>2.2 野巴旦杏AlsCBF蛋白理化性质的预测</title>
+				<p>用ProtParam Tool软件预测野巴旦杏<italic>AlsCBF</italic>基因所编码的蛋白质的相对分子质量为26.5581 kDa，理论等电点为6.76，分子式为C<sub>1156</sub>H<sub>1832</sub>N<sub>332</sub>O<sub>356</sub>S<sub>15</sub>；理论推导半衰期大约为30 h。该蛋白中相对含量比较高的氨基酸有Ser相对含量比为10.5%、Ala相对含量比为9.7%、Leu相对含量比为8%和Arg相对含量比为8%；含量比较低的氨基酸是His相对含量比为0.8%、Tyr相对含量比为1.7%和Cys相对含量比为1.7%。总的带负电荷的残基(Asp+Glu)为34，总的带正电荷的残基(Arg+Lys)为34。亲水性平均数为-0.478，并且其脂肪指数为69.20。</p>
+			</sec>
+			<sec id="s3c">
+				<title>2.3 野巴旦杏AlsCBF编码氨基酸的同源性分析</title>
+				<p>将野巴旦杏AlsCBF完整的开放阅读框推测的氨基酸序列与NCBI上已登录的其他植物CBF氨基酸序列进行同源性比较（图4）得知，该序列与中国梅(ADF43034)、碧桃(ABR19831)、樱桃(ACF94686)等的氨基酸序列相似性分别达95%、83%、79%。在多重比对的基础上，为进一步了解AlsCBF与其它植物CBF之间的进化关系，应用MEGA 4.0软件对25个CBF的氨基酸序列进行了系统进化树构建。结果（图5）表明AlsCBF与中国梅<italic>Prunus mume</italic>、碧桃<italic>Prunus persica</italic>、樱桃<italic>Prunus cerasus</italic>、甜樱桃<italic>Prunus avium</italic>、苹果<italic>Malus x domestica</italic>等的CBF蛋白聚为一类，与蔷薇科植物亲缘关系比较近，符合植物分类学分类。</p>
+				<fig position="float">
+					<object-id pub-id-type="doi">XX.XXXX/j.issn.1000-6850.2017.01.001.F005</object-id>
+					<label>图5</label>
+					<caption>
+						<title>野巴旦杏AlsCBF蛋白与其他植物25个CBF蛋白的系统进化分析（请将图中植物后面的拉丁名称斜体）</title>
+					</caption>
+					<alternatives>
+						<graphic id="gc5" specific-use="print" xlink:href="file://images/casb15070064_image5.jpeg">
+							<?fx-imagestate rid="gc5" width="141.834305" height="108.055833"?>
+						</graphic>
+						<graphic specific-use="big" xlink:href="file://alternativeImage/casb15070064-F005.jpg"></graphic>
+						<graphic specific-use="small" xlink:href="file://alternativeImage/casb15070064-F005c.jpg"></graphic>
+					</alternatives>
+				</fig>
+			</sec>
+			<sec id="s3d">
+				<title>2.4 野巴旦杏AlsCBF蛋白信号肽及磷酸化分析</title>
+				<p>通过2种不同软件即神经网络(Neural networks，NN)和隐马尔科夫模型(Hidden Markov Model，HMM)的预测分析AlsCBF蛋白，得到相同的结果是野巴旦杏AlsCBF蛋白不存在信号肽序列。</p>
+				<p>根据KinasePhos推测<sup>[<xref ref-type="bibr" rid="R13">13</xref>]</sup>，野巴旦杏AlsCBF蛋白有8处丝氨酸磷酸化位点、1处苏氨酸磷酸化位点（图6）。可以推测，<italic>AlsCBF</italic>基因可能是通过可逆的磷酸化反应对逆境胁迫进行感知和表达。</p>
+				<fig position="float">
+					<object-id pub-id-type="doi">XX.XXXX/j.issn.1000-6850.2017.01.001.F006</object-id>
+					<label>图6</label>
+					<caption>
+						<title>AlsCBF蛋白的磷酸化分析</title>
+					</caption>
+					<alternatives>
+						<graphic id="gc4" specific-use="print" xlink:href="file://images/casb15070064_image6.jpeg">
+							<?fx-imagestate rid="gc4" width="146.52625" height="21.59"?>
+						</graphic>
+						<graphic specific-use="big" xlink:href="file://alternativeImage/casb15070064-F006.jpg"></graphic>
+						<graphic specific-use="small" xlink:href="file://alternativeImage/casb15070064-F006c.jpg"></graphic>
+					</alternatives>
+				</fig>
+			</sec>
+			<sec id="s3e">
+				<title>2.5 野巴旦杏AlsCBF蛋白疏水性/亲水性分析</title>
+				<p>蛋白质具有形态差异的空间结构，就可以形成具有千差万别的生物学功能。是因为组成蛋白质的氨基酸虽然只有20种，但是由于每个氨基酸各具特殊的侧链，再将它们按照不同的序列关系组合时，得到了数以千万的不同蛋白质。用ProtScale的Kyte and Doolittle算法对野巴旦杏AlsCBF蛋白的氨基酸序列的疏水性/亲水性进行预测，并采用Anthepro软件分析亲水/疏水性，正值越大表示越疏水，负值越大表示越亲水（图7）。结果表明，野巴旦杏AlsCBF蛋白中的各种氨基酸均匀分布，但是亲水性氨基酸在数量上明显多于疏水性氨基酸，AlsCBF第100位Ala(A)疏水性最强，第320位Asn(N)亲水性最强；而且大部分的氨基酸属于亲水性氨基酸，由此可认为野巴旦杏AlsCBF蛋白属于亲水性蛋白。</p>
+				<fig position="float">
+					<object-id pub-id-type="doi">XX.XXXX/j.issn.1000-6850.2017.01.001.F007</object-id>
+					<label>图7</label>
+					<caption>
+						<title>AlsCBF蛋白的疏水性分析</title>
+					</caption>
+					<alternatives>
+						<graphic id="gc3" specific-use="print" xlink:href="file://images/casb15070064_image7.jpeg">
+							<?fx-imagestate rid="gc3" width="138.888611" height="64.011527"?>
+						</graphic>
+						<graphic specific-use="big" xlink:href="file://alternativeImage/casb15070064-F007.jpg"></graphic>
+						<graphic specific-use="small" xlink:href="file://alternativeImage/casb15070064-F007c.jpg"></graphic>
+					</alternatives>
+				</fig>
+			</sec>
+			<sec id="s3f">
+				<title>2.6 野巴旦杏AlsCBF蛋白编码氨基酸的二级结构及亚细胞定位分析</title>
+				<p>蛋白质二级结构是多肽链中相邻多个氨基酸残基形成的局部肽链空间结构，由H(α-helix)、E(extended strand)、T(β-turn)和无规则C(randomcoil)等几种二级结构元件组成，具有特定的生物学活性。用SOPMA预测不同植物AlsCBF氨基酸序列的二级结构，其中显示β-转角和延伸链散布于整个蛋白质中，而α-螺旋和无规则卷曲是AlsCBF蛋白的大量结构元件。统计表明，AlsCBF蛋白由29.54%的α-螺旋、13.5%的延伸链、2.95%的β-转角和54.01%的无规则卷曲组成（图8）。通过PSORT对AlsCBF编码蛋白的亚细胞定位分析。结果表明AlsCBF蛋白最终定位于细胞质的可能性为45.1%，定位于微体（过氧化物酶体）的可能性为35.3%，从而推断该蛋白可能定位于细胞质内。</p>
+				<fig position="float">
+					<object-id pub-id-type="doi">XX.XXXX/j.issn.1000-6850.2017.01.001.F008</object-id>
+					<label>图8</label>
+					<caption>
+						<title>野巴旦杏AlsCBF蛋白二级结构</title>
+					</caption>
+					<alternatives>
+						<graphic id="gc2" specific-use="print" xlink:href="file://images/casb15070064_image8_emf.pdf">
+							<?fx-imagestate rid="gc2" width="170.02125" height="82.514722"?>
+						</graphic>
+						<graphic specific-use="big" xlink:href="file://alternativeImage/casb15070064-F008.jpg"></graphic>
+						<graphic specific-use="small" xlink:href="file://alternativeImage/casb15070064-F008c.jpg"></graphic>
+					</alternatives>
+				</fig>
+			</sec>
+			<sec id="s3g">
+				<title>2.7 野巴旦杏AlsCBF蛋白的三级结构预测与分析</title>
+				<p>分析蛋白质的三维结构，除共价的肽键和二硫键，还需大量的极其复杂的弱次级键共同作用，实际上折叠过程是一个错误途径和正确途径相互竞争的过程。分析蛋白质的三维结构，利用Swiss-model进行野巴旦杏AlsCBF结构的三维建模，预测野巴旦杏AlsCBF蛋白的三维结构（图9）。预测结果，可见α-螺旋、β-转角和β-折叠，由此可得到其蛋白折叠空间结构构象的变化。</p>
+				<fig position="float">
+					<object-id pub-id-type="doi">XX.XXXX/j.issn.1000-6850.2017.01.001.F009</object-id>
+					<label>图9</label>
+					<caption>
+						<title>野巴旦杏AlsCBF蛋白的三维结构建模</title>
+					</caption>
+					<alternatives>
+						<graphic id="gc1" specific-use="print" xlink:href="file://images/casb15070064_image9.jpeg">
+							<?fx-imagestate rid="gc1" width="85.742638" height="79.727777"?>
+						</graphic>
+						<graphic specific-use="big" xlink:href="file://alternativeImage/casb15070064-F009.jpg"></graphic>
+						<graphic specific-use="small" xlink:href="file://alternativeImage/casb15070064-F009c.jpg"></graphic>
+					</alternatives>
+				</fig>
+			</sec>
+		</sec>
+		<sec id="s4">
+			<title>3 结论与讨论</title>
+			<p>本试验成功地克隆了野巴旦杏<italic>AlsCBF</italic>基因全长，该cDNA全长1171 bp，具有完整的开放阅读框，共714个碱基，编码237个氨基酸。通过生物信息学分析，预测得到该蛋白分子式为C<sub>1156</sub>H<sub>1832</sub>N<sub>332</sub>O<sub>356</sub>S<sub>15</sub>，分子量为26.5581 kDa，等电点6.76，脂肪系数为69.20，是一种非分泌性亲水性蛋白；其二级结构包括29.54%的α-螺旋、13.5%的延伸链、2.95%的β-转角和54.01%的无规则卷曲，多重比对结果表明，野巴旦杏<italic>AlsCBF</italic>与与中国梅(ADF43034)、碧桃(ABR19831)、樱桃(ACF94686)等的氨基酸序列相似性分别达95%、83%、79%，通过构建系统进化树发现，野巴旦杏<italic>AlsCBF</italic>与蔷薇科植物亲缘关系比较近，符合植物分类学分类。</p>
+			<p>CBF转录因子上游含有个保守的核定位信号区(NLS)：PKRPAGRTKFRETRHP；下游含有DSAW的保守序列，这些序列被称为CBF转录因子的特征序列<sup>[<xref ref-type="bibr" rid="R14">14</xref>]</sup>，本研究克隆得到的野巴旦杏<italic>AlsCBF</italic>基因的AP2/EREBP域上游和下游存在PKKPAGRKKFRETRHP和FADSAWR的特异氨基酸。AP2/EREBP域两个特征序列在进化程度不同的物种中保守存在，说明它们在<italic>CBF</italic>基因抗寒性功能研究中发挥非常重要的作用，且PKKPAGRKKFRETRHP序列与核运输信号相似，表明它可能与以前认为的蛋白运输有关<sup>[<xref ref-type="bibr" rid="R15">15</xref>,<xref ref-type="bibr" rid="R16">16</xref>,<xref ref-type="bibr" rid="R17">17</xref>]</sup>。对其蛋白质的亚细胞定位、疏水或亲水性和磷酸化的分析与预测结果表明，野巴旦杏AlsCBF是一种亲水性蛋白，主要在细胞质中通过可逆的磷酸化反应对逆境胁迫进行感知和表达。</p>
+			<p>本研究克隆获得了野巴旦杏抗寒相关<italic>AlsCBF</italic>基因，并对其生物学功能进行了预测，这为进一步研究和探讨该基因的功能奠定了基础，随着工作的深入，作者将进一步通过转基因来验证<italic>AlsCBF</italic>的功能。研究该转录因子在植物中的调控机理，深入了解植物的逆境胁迫应答过程进而提高植株综合抗逆性机制，可为进一步研究野巴旦杏的抗寒机制与抗寒栽培扁桃转基因育种及种质创新奠定理论基础。</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>参考文献</title>
+			<ref id="R1">
+				<label>1</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<string-name>李疆</string-name>.</person-group>
+					<article-title>新疆扁桃结实率低的生理与分子机制</article-title>[J].<source>经济林研究</source>,<year>2011</year>,<volume>29</volume>(<issue>2</issue>):<fpage>1</fpage>-<lpage>7</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R2">
+				<label>2</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<string-name>徐叶挺</string-name>,<string-name>李疆</string-name>,<string-name>罗淑萍</string-name>,等.</person-group>
+					<article-title>低温胁迫下野生巴旦杏抗寒生理指标的测定</article-title>[J].<source>新疆农业大学学报</source>,<year>2008</year>,<volume>31</volume>(<issue>4</issue>):<fpage>1</fpage>-<lpage>4</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R3">
+				<label>3</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<string-name>曾斌</string-name>,<string-name>罗淑萍</string-name>,<string-name>李疆</string-name>,等.</person-group>
+					<article-title>新疆野巴旦杏形态多样性调查初报</article-title>[J].<source>经济林研究</source>,<year>2008</year>,<volume>26</volume>(<issue>3</issue>):<fpage>107</fpage>-<lpage>110</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R4">
+				<label>4</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<name name-style="western">
+							<surname>K R</surname>
+							<given-names>Jaglo</given-names>
+						</name>, <name name-style="western">
+							<surname>S</surname>
+							<given-names>Kleff</given-names>
+						</name>, <name name-style="western">
+							<surname>K L</surname>
+							<given-names>Amundsen</given-names>
+						</name>, <etal>et al</etal>.</person-group>
+					<article-title>Components of the Arabidopsis C-repeat dehydration responsive element binding factor cold-response pathway are conserved in Brassicanapus and other plant species</article-title>[J]. <source>Plant Physiology</source>,<year>2001</year>,<volume>127</volume>(<issue>3</issue>):<fpage>910</fpage>-<lpage>917</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R5">
+				<label>5</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<name name-style="western">
+							<surname>S J</surname>
+							<given-names>Gilmour</given-names>
+						</name>, <name name-style="western">
+							<surname>D G</surname>
+							<given-names>Zarka</given-names>
+						</name>, <name name-style="western">
+							<surname>E J</surname>
+							<given-names>Stockinger</given-names>
+						</name>, <etal>et al</etal>.</person-group>
+					<article-title>Low temperature regulation of the Arabidopsis CBF family of AP2 transcriptional activators as an early step in cold-induced COR gene expression</article-title>[J]. <source>The Plant Journal</source>,<year>1998</year>,<volume>16</volume>(<issue>4</issue>):<fpage>433</fpage>-<lpage>442</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R6">
+				<label>6</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<name name-style="western">
+							<surname>X</surname>
+							<given-names>Zhang</given-names>
+						</name>, <name name-style="western">
+							<surname>S G</surname>
+							<given-names>Fowel</given-names>
+						</name>, <name name-style="western">
+							<surname>H</surname>
+							<given-names>Cheng</given-names>
+						</name>, <etal>et al</etal>.</person-group>
+					<article-title>Freezing-sensitive tomato has a functional CBF cold response pathway,but a CBF regulon that differes from that of freezing-tolerant Arabidopsis</article-title>[J]. Plant Journal,<volume>2004</volume>(<issue>39</issue>):<fpage>905</fpage>-<lpage>919</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R7">
+				<label>7</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<name name-style="western">
+							<surname>M</surname>
+							<given-names>Zhang</given-names>
+						</name>, <name name-style="western">
+							<surname>W</surname>
+							<given-names>Liu</given-names>
+						</name>, <name name-style="western">
+							<surname>Y P</surname>
+							<given-names>Bi</given-names>
+						</name>.</person-group>
+					<article-title>Dehydration-responsive element-binding (DREB) transcription factor in plants and its role during abiotic stresses</article-title>[J]. <source>Hereditas</source>,<year>2009</year>,<volume>31</volume>(<issue>3</issue>):<fpage>236</fpage>-<lpage>244</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R8">
+				<label>8</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<name name-style="western">
+							<surname>M</surname>
+							<given-names>Tang</given-names>
+						</name>, <name name-style="western">
+							<surname>X</surname>
+							<given-names>Liu</given-names>
+						</name>, <name name-style="western">
+							<surname>H</surname>
+							<given-names>Deng</given-names>
+						</name>, <etal>et al</etal>. Over-expression of JcDREB, a putative AP2/EREBP domain-containing transcription factor gene in woody biodiesel plant Jatropha curcas, enhances salt and freezing tolerance in transgenic Arabidopsis thaliana[J].</person-group>
+					<source>Plant Science</source>,<year>2011</year>,<volume>181</volume>(<issue>6</issue>):<fpage>623</fpage>-<lpage>631</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R9">
+				<label>9</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<name name-style="western">
+							<surname>A S</surname>
+							<given-names>Xiong</given-names>
+						</name>, <name name-style="western">
+							<surname>H H</surname>
+							<given-names>Jiang</given-names>
+						</name>, <name name-style="western">
+							<surname>J</surname>
+							<given-names>Zhuang</given-names>
+						</name>, <etal>et al</etal>.</person-group>
+					<article-title>Expression and function of a modified AP2/ERF transcription factor from Brassica napus enhances cold tolerance in transgenic Arabidopsis</article-title>[J]. <source>Molecular Biotechnology</source>,<year>2013</year>,<volume>53</volume>(<issue>2</issue>):<fpage>198</fpage>-<lpage>206</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R10">
+				<label>10</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<name name-style="western">
+							<surname>M F</surname>
+							<given-names>Thomashow</given-names>
+						</name>.</person-group>
+					<article-title>Molecular basis of plant cold acclimation:Insights gained from studying the CBF cold response pathway</article-title>[J]. <source>Plant Physiol</source>,<year>2010</year>,<volume>154</volume>(<issue>2</issue>):<fpage>571</fpage>-<lpage>577</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R11">
+				<label>11</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<name name-style="western">
+							<surname>T H</surname>
+							<given-names>Hsieh</given-names>
+						</name>, <name name-style="western">
+							<surname>J T</surname>
+							<given-names>Lee</given-names>
+						</name>, <name name-style="western">
+							<surname>Y Y</surname>
+							<given-names>Charng</given-names>
+						</name>, <etal>et a1</etal>.</person-group>
+					<article-title>Tomato plants ectopically expressing Arabidopsis CBF1 show enhanced resistance to water deficit stress</article-title>[J]. <source>Plant Physiol</source>,<year>2002</year>,<volume>130</volume>(<issue>2</issue>):<fpage>618</fpage>-<lpage>626</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R12">
+				<label>12</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<string-name>冯勋伟</string-name>,<string-name>才宏伟</string-name>.</person-group>
+					<article-title>结缕草CBF基因的同源克隆及其转基因拟南芥的抗寒性验证</article-title>[J].<source>作物学报</source>,<year>2014</year>,<volume>40</volume>(<issue>9</issue>):<fpage>1572</fpage>-<lpage>1578</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R13">
+				<label>13</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<name name-style="western">
+							<surname>H D</surname>
+							<given-names>Huang</given-names>
+						</name>, <name name-style="western">
+							<surname>T Y</surname>
+							<given-names>Lee</given-names>
+						</name>, <name name-style="western">
+							<surname>S W</surname>
+							<given-names>Tzeng</given-names>
+						</name>, <etal>et al</etal>.</person-group>
+					<article-title>KinasePhos: a web tool for identifying protein kinase-specifi phosphorylation sites</article-title>[J]. Nucleic Acids Res,<volume>2005</volume>(<issue>33</issue>):<fpage>226</fpage>-<lpage>229</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R14">
+				<label>14</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<name name-style="western">
+							<surname>K R</surname>
+							<given-names>Jaglo</given-names>
+						</name>, <name name-style="western">
+							<surname>S</surname>
+							<given-names>Kleff</given-names>
+						</name>, <name name-style="western">
+							<surname>K L</surname>
+							<given-names>Amundsen</given-names>
+						</name>, <etal>et al</etal>.</person-group>
+					<article-title>Components of the Arabidopsis C-repeat/dehydration responsive element binding factor cold-response pathway are conserved in Brassica napus and other plant species</article-title>[J]. <source>Plant Physiol</source>,<year>2001</year>,<volume>127</volume>(<issue>3</issue>):<fpage>910</fpage>-<lpage>917</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R15">
+				<label>15</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<string-name>翟俊峰</string-name>,<string-name>王法微</string-name>,<string-name>王南</string-name>,等.</person-group>
+					<article-title>月季CBF转录因子基因的克隆及表达分析</article-title>[J].<source>园艺学报</source>,<year>2012</year>,<volume>39</volume>(<issue>8</issue>):<fpage>1596</fpage>-<lpage>1602</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R16">
+				<label>16</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<string-name>张弘</string-name>,<string-name>朱友银</string-name>,<string-name>邵姁</string-name>,等.</person-group>
+					<article-title>中国樱桃CBF/DREB转录因子PpcCBF的克隆与表达分析</article-title>[J].<source>基因组学与应用生物学</source>, <year>2015</year>,<volume>34</volume>(<issue>1</issue>):<fpage>149</fpage>-<lpage>154</lpage>.</mixed-citation>
+			</ref>
+			<ref id="R17">
+				<label>17</label>
+				<mixed-citation publication-format="print" publication-type="journal" xlink:type="simple">
+					<person-group>
+						<name name-style="western">
+							<surname>J L</surname>
+							<given-names>Riechmann</given-names>
+						</name>, <name name-style="western">
+							<surname>J</surname>
+							<given-names>Heard</given-names>
+						</name>, <etal>et al</etal>.</person-group>
+					<article-title>Arabidopsis transcriptional factor: genome-wide comparative analysis among eukarvotes</article-title>[J]. Science,<volume>2000</volume>(<issue>290</issue>):<fpage>2105</fpage>-<lpage>2110</lpage>.</mixed-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" specific-use="citation-format">
+				<p></p>
+			</fn>
+			<fn fn-type="other" specific-use="citation-format" xml:lang="en">
+				<p></p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

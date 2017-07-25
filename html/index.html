@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XML2HTMLTest</title>
+    <link type="text/css" rel="stylesheet" href="../style/texture.css"/>
+    <link type="text/css" rel="stylesheet" href="../style/texture-reset.css"/>
+    <link type="text/css" rel="stylesheet" href="../style/texture-pagestyle.css"/>
+    <link type="text/css" rel="stylesheet" href="../style/font-awesome.min.css"/>
+
+    <script type="text/javascript" src="../script/lib/jquery/jquery.js"></script>
+
+    <script type="text/javascript" src="../script/vfs.js"></script>
+    <script type="text/javascript" src="../script/loadXML.js"></script>
+    <script type="text/javascript" src="../script/common/common.js"></script>
+
+    <script type="text/javascript" src="../script/module/articleIndex.js"></script>
+    <script type="text/javascript" src="../script/module/front.js"></script>
+</head>
+
+
+<body>
+<script>
+    $(function () {
+        new Common.module.articleIndex().init();
+    })
+</script>
+<div class="sc-texture">
+    <div class="sc-editor">
+        <div class="sc-split-pane sm-vertical">
+            <!--左侧-->
+            <div class="se-main-section se-pane sm-auto-fill">
+                <div class="sc-split-pane sm-horizontal">
+                    <!--工具栏-->
+                    <div class="se-toolbar-wrapper se-pane sm-sized">
+                        <div class="sc-toolbar">
+                            <div class="se-active-tools">
+                                <div class="sc-tool-dropdown sm-text-types"></div>
+                                <div class="sc-tool-group sm-persistence">
+                                    <div class="sc-toggle-tool">
+                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light"><i
+                                                class="fa fa-save"></i></button>
+                                        <div class="sc-tooltip">Save</div>
+                                    </div>
+                                </div>
+                                <div class="sc-tool-group sm-annotations">
+                                    <div class="sc-toggle-tool">
+                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light"><i
+                                                class="fa fa-bold"></i></button>
+                                        <div class="sc-tooltip">Strong (Ctrl+B)</div>
+                                    </div>
+                                    <div class="sc-toggle-tool">
+                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light"><i
+                                                class="fa fa-italic"></i></button>
+                                        <div class="sc-tooltip">Emphasize (Ctrl+I)</div>
+                                    </div>
+                                    <div class="sc-toggle-tool">
+                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light"><i
+                                                class="fa fa-subscript"></i></button>
+                                        <div class="sc-tooltip">Subscript</div>
+                                    </div>
+                                    <div class="sc-toggle-tool">
+                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light"><i
+                                                class="fa fa-superscript"></i></button>
+                                        <div class="sc-tooltip">Superscript</div>
+                                    </div>
+                                    <div class="sc-toggle-tool">
+                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light"><i
+                                                class="fa fa-link"></i></button>
+                                        <div class="sc-tooltip">Link (Ctrl+K)</div>
+                                    </div>
+                                </div>
+                                <div class="sc-tool-dropdown sm-insert">
+                                    <button tabindex="1" class="sc-button sm-theme-light"><span
+                                            class="se-label">Insert</span><i class="fa fa-angle-down se-dropdown"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--文章-->
+                    <div class="sc-split-pane sm-horizontal se-pane sm-auto-fill">
+                        <div class="sc-scroll-pane sm-default-style sm-substance-scrollbar sm-scrollbar-position-left se-pane sm-auto-fill">
+                            <div id="content-scrollbar" class="sc-scrollbar">
+                                <div class="se-thumb" style="top: 0px; height: 6.25752px;"></div>
+                            </div>
+                            <div class="se-scanline"></div>
+                            <div class="se-scrollable">
+                                <div class="se-content">
+                                    <div class="sc-layout sm-width-large">
+                                        <!--正文开始-->
+
+                                    </div>
+                                    <div class="sc-overlay sm-hidden sm-theme-dark">
+                                        <div class="se-active-tools">
+                                            <div class="sc-tool-prompt sm-prompt"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sc-workflow-pane se-pane sm-sized">
+                            <div class="se-active-tools">
+                                <div class="sc-tool-group sm-workflow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--右侧-->
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

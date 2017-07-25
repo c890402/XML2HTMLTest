@@ -1,0 +1,25 @@
+{
+  "name": "xml2htmltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  },
+  "scripts": {
+  	 "script-name": "babel-node script.js",
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yubbaiyu/XML2HTMLTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yubbaiyu/XML2HTMLTest/issues"
+  },
+  "homepage": "https://github.com/yubbaiyu/XML2HTMLTest#readme"
+}
