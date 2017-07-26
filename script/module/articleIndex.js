@@ -43,11 +43,12 @@
         constructor: articleIndex,
         init: function () {
             var _self = this;
-            _self.bindEvents();
+             _self.bindEvents();
         },
         bindEvents: function () {
             var _self = this;
             _self.getArticle();
+            _self.editArticle();
 
         },
         // 添加文章的html节点
@@ -69,17 +70,21 @@
         },
 
         getBody: function (){
-            new BodyIndex();
+            
         },
 
         getBack: function (){
-            new BackIndex();
+            
         },
 
         getSeparator: function (){
-            new SeparatorIndex();
+            
         },
 
+        editArticle:function () {
+            ZenPen.editor.init();
+            ZenPen.ui.init();
+        }
     }
     Common.module["articleIndex"] = articleIndex;
 })(jQuery, window);

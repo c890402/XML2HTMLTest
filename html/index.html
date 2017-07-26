@@ -8,14 +8,24 @@
     <link type="text/css" rel="stylesheet" href="../style/texture-pagestyle.css"/>
     <link type="text/css" rel="stylesheet" href="../style/font-awesome.min.css"/>
 
+    <!-- LIBS -->
     <script type="text/javascript" src="../script/lib/jquery/jquery.js"></script>
 
+    <script type="text/javascript" src="../script/lib/FileSaver.min.js"></script>
+    <script type="text/javascript" src="../script/lib/Blob.min.js"></script>
+    <script type="text/javascript" src="../script/lib/screenfull.min.js"></script>
+
+    <!-- JS -->
     <script type="text/javascript" src="../script/vfs.js"></script>
     <script type="text/javascript" src="../script/loadXML.js"></script>
     <script type="text/javascript" src="../script/common/common.js"></script>
 
     <script type="text/javascript" src="../script/module/articleIndex.js"></script>
     <script type="text/javascript" src="../script/module/front.js"></script>
+
+    <script type="text/javascript" src="../script/module/utils.js"></script>
+    <script type="text/javascript" src="../script/module/editor.js"></script>
+    <script type="text/javascript" src="../script/module/ui.js"></script>
 </head>
 
 
@@ -38,40 +48,40 @@
                                 <div class="sc-tool-dropdown sm-text-types"></div>
                                 <div class="sc-tool-group sm-persistence">
                                     <div class="sc-toggle-tool">
-                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light"><i
+                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light save"><i
                                                 class="fa fa-save"></i></button>
                                         <div class="sc-tooltip">Save</div>
                                     </div>
                                 </div>
                                 <div class="sc-tool-group sm-annotations">
                                     <div class="sc-toggle-tool">
-                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light"><i
+                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light bold"><i
                                                 class="fa fa-bold"></i></button>
                                         <div class="sc-tooltip">Strong (Ctrl+B)</div>
                                     </div>
                                     <div class="sc-toggle-tool">
-                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light"><i
+                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light italic"><i
                                                 class="fa fa-italic"></i></button>
                                         <div class="sc-tooltip">Emphasize (Ctrl+I)</div>
                                     </div>
                                     <div class="sc-toggle-tool">
-                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light"><i
+                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light subscript"><i
                                                 class="fa fa-subscript"></i></button>
                                         <div class="sc-tooltip">Subscript</div>
                                     </div>
                                     <div class="sc-toggle-tool">
-                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light"><i
+                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light superscript"><i
                                                 class="fa fa-superscript"></i></button>
                                         <div class="sc-tooltip">Superscript</div>
                                     </div>
                                     <div class="sc-toggle-tool">
-                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light"><i
+                                        <button tabindex="-1" disabled="true" class="sc-button sm-theme-light url"><i
                                                 class="fa fa-link"></i></button>
                                         <div class="sc-tooltip">Link (Ctrl+K)</div>
                                     </div>
                                 </div>
                                 <div class="sc-tool-dropdown sm-insert">
-                                    <button tabindex="1" class="sc-button sm-theme-light"><span
+                                    <button tabindex="1" class="sc-button sm-theme-light insert"><span
                                             class="se-label">Insert</span><i class="fa fa-angle-down se-dropdown"></i>
                                     </button>
                                 </div>
