@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9f2882bc-0cb5-41d2-9c98-c3c29bc2fceb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/common/common.js" afterPath="$PROJECT_DIR$/script/common/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/module/articleIndex.js" afterPath="$PROJECT_DIR$/script/module/articleIndex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/module/front.js" afterPath="$PROJECT_DIR$/script/module/front.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/module/xmlFormat.js" afterPath="$PROJECT_DIR$/script/module/xmlFormat.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,27 +23,24 @@
       <file leaf-file-name="articleIndex.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/module/articleIndex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="101" column="48" lean-forward="false" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="48" />
+            <state relative-caret-position="238">
+              <caret line="72" column="55" lean-forward="true" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="front.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="front.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/module/front.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="62" column="10" lean-forward="true" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+            <state relative-caret-position="523">
+              <caret line="107" column="10" lean-forward="true" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
               <folding>
-                <element signature="e#441#516#0" expanded="false" />
                 <element signature="e#550#623#0" expanded="false" />
-                <element signature="e#655#957#0" expanded="false" />
-                <element signature="e#1009#2390#0" expanded="false" />
-                <element signature="e#2442#3511#0" expanded="false" />
-                <element signature="e#3560#4349#0" expanded="false" />
-                <element signature="e#4399#5471#0" expanded="false" />
-                <element signature="e#5538#6057#0" expanded="false" />
+                <element signature="e#1117#2708#0" expanded="false" />
+                <element signature="e#2760#3975#0" expanded="false" />
+                <element signature="e#4024#4839#0" expanded="false" />
+                <element signature="e#4889#7394#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -51,7 +49,7 @@
       <file leaf-file-name="edit.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/module/edit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
+            <state relative-caret-position="1258">
               <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding />
             </state>
@@ -71,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/common/common.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -94,10 +92,10 @@
       <file leaf-file-name="xmlFormat.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/module/xmlFormat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+            <state relative-caret-position="-208">
+              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding>
-                <element signature="e#1732#1936#0" expanded="false" />
+                <element signature="e#1792#1997#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -150,8 +148,8 @@
       <find>Comm</find>
       <find>Commo</find>
       <find>Common</find>
-      <find>article</find>
       <find>sm-horizontal</find>
+      <find>article</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -179,11 +177,11 @@
         <option value="$PROJECT_DIR$/html/edit.xml" />
         <option value="$PROJECT_DIR$/script/module/edit.js" />
         <option value="$PROJECT_DIR$/script/module/xmlRead.js" />
-        <option value="$PROJECT_DIR$/script/module/articleIndex.js" />
         <option value="$PROJECT_DIR$/html/index.html" />
-        <option value="$PROJECT_DIR$/script/module/front.js" />
-        <option value="$PROJECT_DIR$/script/module/xmlFormat.js" />
         <option value="$PROJECT_DIR$/script/common/common.js" />
+        <option value="$PROJECT_DIR$/script/module/articleIndex.js" />
+        <option value="$PROJECT_DIR$/script/module/xmlFormat.js" />
+        <option value="$PROJECT_DIR$/script/module/front.js" />
       </list>
     </option>
   </component>
@@ -203,8 +201,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="637" />
-    <option name="width" value="1050" />
+    <option name="x" value="728" />
+    <option name="width" value="959" />
     <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -447,15 +445,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500861875181</updated>
-      <workItem from="1500861876512" duration="74657000" />
+      <workItem from="1500861876512" duration="80635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74657000" />
+    <option name="totallyTimeSpent" value="80635000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="637" y="0" width="1050" height="1017" extended-state="0" />
+    <frame x="728" y="0" width="959" height="1017" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25592884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -797,51 +795,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/module/articleIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="101" column="48" lean-forward="false" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/module/front.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="62" column="10" lean-forward="true" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-          <folding>
-            <element signature="e#441#516#0" expanded="false" />
-            <element signature="e#550#623#0" expanded="false" />
-            <element signature="e#655#957#0" expanded="false" />
-            <element signature="e#1009#2390#0" expanded="false" />
-            <element signature="e#2442#3511#0" expanded="false" />
-            <element signature="e#3560#4349#0" expanded="false" />
-            <element signature="e#4399#5471#0" expanded="false" />
-            <element signature="e#5538#6057#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/module/edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/loadXML.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/introducing-texture.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -865,13 +822,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/module/xmlFormat.js">
+    <entry file="file://$PROJECT_DIR$/data/introducing-texture.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-          <folding>
-            <element signature="e#1732#1936#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/module/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/module/articleIndex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="72" column="55" lean-forward="true" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -880,6 +851,30 @@
         <state relative-caret-position="289">
           <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/module/xmlFormat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="e#1792#1997#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/module/front.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="107" column="10" lean-forward="true" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
+          <folding>
+            <element signature="e#550#623#0" expanded="false" />
+            <element signature="e#1117#2708#0" expanded="false" />
+            <element signature="e#2760#3975#0" expanded="false" />
+            <element signature="e#4024#4839#0" expanded="false" />
+            <element signature="e#4889#7394#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

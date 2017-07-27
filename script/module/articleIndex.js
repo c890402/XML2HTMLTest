@@ -69,7 +69,8 @@
         getArticle: function () {
             var _self = this;
 
-            const cArticle = '<div data-id="article" class="sc-article"></div>';
+            const id = Common.xml.article.id;
+            const cArticle = '<div data-id="' + id + '" class="sc-article"></div>';
             $('.sc-layout').append(cArticle);
 
             _self.getFront();

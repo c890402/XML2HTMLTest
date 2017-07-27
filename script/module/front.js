@@ -26,8 +26,11 @@
         getFront: function () {
             const _self = this;
 
-            const cFront = '<div data-id="front-1" class="sc-front"></div>';
-            $('.sc-article').append(cFront);
+            for (const el of Common.xml.front) {
+                const id = el.id;
+                const cFront = '<div data-id="' + id + '" class="sc-front"></div>';
+                $('.sc-article').append(cFront);
+            }
 
             _self.getTitleGroup();
             _self.getAuthorList();
@@ -39,9 +42,12 @@
         getTitleGroup: function () {
             const _self = this;
 
-            $.each(_self.title_groups, function (index, xTitleGroup) {
+            for (const xTitleGroup of Common.xml['title-group']) {
+
+                const id = xTitleGroup.id;
+
                 // 外层div
-                const cTitleGroup = '<div data-id="title-group-' + (index + 1) + '" class="sc-title-group"></div>';
+                const cTitleGroup = '<div data-id="' + id + '" class="sc-title-group"></div>';
                 $('.sc-front').append(cTitleGroup);
 
                 // 第二外层，可编辑div
@@ -50,16 +56,21 @@
                 $('.sc-title-group').append(eArticleTitle);
 
                 // 中文
-                const xArtitleTitle = xTitleGroup.getElementsByTagName('article-title')[0];
-                const cArtitletitle = '<div data-path="article-title-' + (index + 1) + '.content" class="sc-text-property">' + xArtitleTitle.innerHTML + '</div>';
-                $('.se-article-title').append(cArtitletitle);
-
+                const xArtitleTitle = xTitleGroup.getElementsByTagName('article-title');
+                for (const xTitle of xArtitleTitle) {
+                    const id = xTitle.id;
+                    const cArtitletitle = '<div data-path="' + id + '.content" class="sc-text-property">' + xTitle.innerHTML + '</div>';
+                    $('.se-article-title').append(cArtitletitle);
+                }
                 // 英文
-                const xTransTitle = xTitleGroup.getElementsByTagName('trans-title')[0];
-                const cTransTitle = '<div data-path="article-trans-title-' + (index + 1) + '.content" class="sc-text-property">' + xTransTitle.innerHTML + '</div>';
-                $('.se-article-title').append(cTransTitle);
+                const xTransTitle = xTitleGroup.getElementsByTagName('trans-title');
+                for (const xTitle of xTransTitle) {
+                    const id = xTitle.id;
+                    const cTransTitle = '<div data-path="article-trans-title-' + id + '.content" class="sc-text-property">' + xTitle.innerHTML + '</div>';
+                    $('.se-article-title').append(cTransTitle);
+                }
                 // console.log(xArtitleTitle.innerHTML)
-            })
+            }
         },
 
         // 作者
@@ -68,16 +79,20 @@
 
             // 该div内的作者名称及上标字符串拼接
             let cAuthorList = "";
-            $.each(_self.contrib, function (index, contrib) {
+            $.each(Common.xml['contrib'], function (index, contrib) {
+
                 // 每一个带上标的作者名称
                 let xAuthor = contrib.getElementsByTagName('string-name')[0].innerHTML;
-                // 若是上标存在，则遍历后拼接到xAAuthor
+                // 若是上标存在，则遍历后拼接到xAuthor
                 const xXrefList = contrib.getElementsByTagName('xref');
                 if (xXrefList.length != 0) {
                     $.each(xXrefList, function (i, xref) {
                         const xSup = xref.getElementsByTagName('sup')[0];
                         const cSup = '<sup >' + xSup.innerHTML + '</sup>';
                         xAuthor += cSup;
+                        if (i !== xXrefList.length - 1) {
+                            xAuthor += '<sup>,</sup>'
+                        }
                     });
                 }
                 cAuthorList += xAuthor;
@@ -98,16 +113,16 @@
 
             // 该div内的机构名称
             let cAffList = "";
-            $.each(_self.aff_alternatives, function (index, xAffiliation) {
+            $.each(Common.xml['aff-alternatives'], function (index, xAffiliation) {
                 // 每一个机构
                 let xAffList = xAffiliation.getElementsByTagName('aff');
                 $.each(xAffList, function (i, xAff) {
                     // 只选择中文的
-                    if (!xAff.hasAttributes()) {
+                    if (!xAff.hasAttribute('xml:lang')) {
                         cAffList += xAff.innerHTML;
                     }
                 });
-                if (index != _self.aff_alternatives.length - 1) {
+                if (index !== Common.xml['aff-alternatives'].length - 1) {
                     cAffList += ';'
                 }
             });
@@ -121,42 +136,57 @@
         getAbstract: function () {
             const _self = this;
 
-            // 外层div
-            const cAbstract = '<div data-id="abstract-1" class="sc-abstract"></div>';
-            $('.sc-front').append(cAbstract);
+            for (const abstract of Common.xml['abstract']) {
+                if (abstract.getAttribute('abstract-type') === "key-points") {
 
-            // 第二外层div
-            const cAbstractContent = '<div data-id="abstract-content-1" class="sc-abstract-content"></div>';
-            $('.sc-abstract').append(cAbstractContent);
+                    const id = abstract.id;
+                    // 外层div
+                    const cAbstract = '<div data-id="' + id + '" class="sc-abstract"></div>';
+                    $('.sc-front').append(cAbstract);
 
-            // 第三外层，可编辑div
-            const eAbstract = '<div tabindex="2" data-surface-id="abstractEditor" ' +
-                'data-id="abstract-content-1" contenteditable="true" spellcheck="false" ' +
-                'class="sc-surface sc-container-editor container-node abstract-content-1 sm-enabled"></div>';
-            $('.sc-abstract-content').append(eAbstract);
+                    // 第二外层div
+                    const cAbstractContent = '<div data-id="abstract-content-1" class="sc-abstract-content"></div>';
+                    $('.sc-abstract').append(cAbstractContent);
 
-            // 第四外层 p
-            const cAbstractP = '<div data-id="p-1" class="sc-p"></div>';
-            $('.abstract-content-1.sc-container-editor').append(cAbstractP);
+                    // 第三外层，可编辑div
+                    const eAbstract = '<div tabindex="2" data-surface-id="abstractEditor" ' +
+                        'data-id="abstract-content-1" contenteditable="true" spellcheck="false" ' +
+                        'class="sc-surface sc-container-editor container-node abstract-content-1 sm-enabled"></div>';
+                    $('.sc-abstract-content').append(eAbstract);
 
-            // 中文
-            _self._getAbstract(_self.abstract);
-            // 英文
-            _self._getAbstract(_self.trans_abstract);
-
-        },
-
-        // 中英文摘要分别获取
-        _getAbstract: function (abstracts) {
-            $.each(abstracts, function (index, xAbstract) {
-                // 筛选出头部的摘要，因为还有图注用的也是abstract标签
-                if (xAbstract.getAttribute('abstract-type') === "key-points") {
-                    const xAbstractContent = xAbstract.getElementsByTagName('p')[0];
-                    const cAbstractSpan = '<p data-path="p-1.content" class="sc-text-property">' + xAbstractContent.innerHTML + '</p>';
-                    $('[data-id="p-1"]').append(cAbstractSpan);
+                    // 第四外层 p
+                    const abstractP = abstract.getElementsByTagName('p');
+                    for (const p of abstractP) {
+                        const pId = p.id;
+                        const cAbstractP = '<div data-id="' + pId + '" class="sc-p"></div>';
+                        $('.abstract-content-1.sc-container-editor').append(cAbstractP);
+                        const cAbstractSpan = '<p data-path="' + pId + '.content" class="sc-text-property">' + p.innerHTML + '</p>';
+                        $('[data-id=' + pId + ']').append(cAbstractSpan);
+                    }
                 }
-            });
+
+            }
+
+            for (const abstract of Common.xml['trans-abstract']) {
+                if (abstract.getAttribute('abstract-type') === "key-points") {
+
+                    const id = abstract.id;
+
+                    // 第四外层 p
+                    const abstractP = abstract.getElementsByTagName('p');
+                    for (const p of abstractP) {
+                        const pId = p.id;
+                        const cAbstractP = '<div data-id="' + pId + '" class="sc-p"></div>';
+                        $('.abstract-content-1.sc-container-editor').append(cAbstractP);
+                        const cAbstractSpan = '<p data-path="' + pId + '.content" class="sc-text-property">' + p.innerHTML + '</p>';
+                        $('[data-id=' + pId + ']').append(cAbstractSpan);
+                    }
+                }
+            }
+
+
         },
+
     }
     Common.module["front"] = front;
 })(jQuery, window);

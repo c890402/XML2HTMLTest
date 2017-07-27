@@ -24,7 +24,8 @@
 
             _self.setXmlId(_self.article);
             _self.setCommonXml();
-
+            // 临时注释，待删除
+            console.log(Common.xml);
             _self.addAttrId();
         },
 
@@ -57,7 +58,7 @@
         serialId: function (oldId) {
             const length = oldId.length;
             const num = (parseInt(oldId.charAt(length - 1))) + 1;
-            const newId = oldId.substr(0,length - 1) + num;
+            const newId = oldId.substr(0, length - 1) + num;
             return newId;
         },
 
@@ -67,8 +68,8 @@
             const _xmlDom = _self.xmlDom;
             const xmlEls = _self.attrJson;
 
-            for(const xmlEl in xmlEls){
-                if(xmlEl!=='article'){
+            for (const xmlEl in xmlEls) {
+                if (xmlEl !== 'article') {
                     Common.xml[xmlEl] = _xmlDom.getElementsByTagName(xmlEl);
                 }
             }
