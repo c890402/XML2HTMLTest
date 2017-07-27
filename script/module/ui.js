@@ -69,23 +69,23 @@ ZenPen.ui = (function() {
 		// Body element for light/dark styles
 		body = document.body;
 
-		uiContainer = $( '.ui' );
+		uiContainer = document.querySelector( '.ui' );
 
 		// UI element for color flip
-		colorLayoutElement = $( '.color-flip' );
+		colorLayoutElement = document.querySelector( '.color-flip' );
 		colorLayoutElement.onclick = onColorLayoutClick;
 
 		// UI element for full screen		
-		screenSizeElement = $( '.fullscreen' );
+		screenSizeElement = document.querySelector( '.fullscreen' );
 		screenSizeElement.onclick = onScreenSizeClick;
 
-		targetElement = $( '.target ');
+		targetElement = document.querySelector( '.target ');
 		targetElement.onclick = onTargetClick;
 		
 		//init event listeners only if browser can save
 		if (supportsSave) {
 
-			saveElement = $( '.save' );
+			saveElement = document.querySelector( '.save' );
 			saveElement.onclick = onSaveClick;
 			
 			var formatSelectors = document.querySelectorAll( '.saveselection span' );
@@ -93,16 +93,16 @@ ZenPen.ui = (function() {
 				formatSelectors[i].onclick = selectFormat;
 			}
 			
-			$('.savebutton').onclick = saveText;
+			document.querySelector('.savebutton').onclick = saveText;
 		} else {
-			$('.save.useicons').style.display = "none";
+			document.querySelector('.save.useicons').style.display = "none";
 		}
 
 		// Overlay when modals are active
-		overlay = $( '.overlay' );
+		overlay = document.querySelector( '.overlay' );
 		overlay.onclick = onOverlayClick;
 
-		article = $( '.content' );
+		article = document.querySelector( '.content' );
 		article.onkeyup = onArticleKeyUp;
 
 		wordCountBox = overlay.querySelector( '.wordcount' );
@@ -114,13 +114,13 @@ ZenPen.ui = (function() {
 		
 		saveModal = overlay.querySelector('.saveoverlay');
 
-		wordCounter = $( '.word-counter' );
+		wordCounter = document.querySelector( '.word-counter' );
 		wordCounterProgress = wordCounter.querySelector( '.progress' );
 
-		aboutButton = $( '.about' );
+		aboutButton = document.querySelector( '.about' );
 		aboutButton.onclick = onAboutButtonClick;
 
-		header = $( '.header' );
+		header = document.querySelector( '.header' );
 		header.onkeypress = onHeaderKeyPress;
 	}
 
@@ -176,7 +176,7 @@ ZenPen.ui = (function() {
 			}
 			saveAs(blob, headerText + '.txt');
 		} else {
-			$('.saveoverlay h1').style.color = '#FC1E1E';
+			document.querySelector('.saveoverlay h1').style.color = '#FC1E1E';
 		}
 	}
 	
@@ -249,10 +249,10 @@ ZenPen.ui = (function() {
 	function selectFormat( e ) {
 		
 		if ( document.querySelectorAll('span.activesave').length > 0 ) {
-			$('span.activesave').className = '';
+			document.querySelector('span.activesave').className = '';
 		}
 		
-		$('.saveoverlay h1').style.cssText = '';
+		document.querySelector('.saveoverlay h1').style.cssText = '';
 		
 		var targ;
 		if (!e) var e = window.event;
@@ -268,15 +268,15 @@ ZenPen.ui = (function() {
 		
 		saveFormat = targ.getAttribute('data-format');
 		
-		var header = $('header.header');
+		var header = document.querySelector('header.header');
 		var headerText = header.innerHTML.replace(/(\r\n|\n|\r)/gm,"") + "\n";
 		
-		var body = $('article.content');
+		var body = document.querySelector('article.content');
 		var bodyText = body.innerHTML;
 			
 		textToWrite = formatText(saveFormat,headerText,bodyText);
 		
-		var textArea = $('.hiddentextbox');
+		var textArea = document.querySelector('.hiddentextbox');
 		textArea.value = textToWrite;
 		textArea.focus();
 		textArea.select();
@@ -363,7 +363,7 @@ ZenPen.ui = (function() {
 		saveModal.style.display = "none";
 		
 		if ( document.querySelectorAll('span.activesave' ).length > 0) {
-			$('span.activesave').className = '';
+			document.querySelector('span.activesave').className = '';
 		}
 
 		saveFormat='';

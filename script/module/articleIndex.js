@@ -82,8 +82,7 @@
         },
 
         editArticle:function () {
-            ZenPen.editor.init();
-            ZenPen.ui.init();
+            new Common.module.edit().init();
         }
     }
     Common.module["articleIndex"] = articleIndex;
