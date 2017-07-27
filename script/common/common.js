@@ -15,15 +15,8 @@
             // 公共全局模块变量
             module:{},
 
-            // 读取出所有节点并且获得叶子节点，存储起来
+            // xml相关的全局变量,xmlFormat中赋值
             xml:{},
-            // xmlDom :z 在xmlRead中生成
-            // article: xmlDom.getElementsByTagName('article')[0],
-            // title_groups: xmlDom.getElementsByTagName('title-group'),
-            // contrib_groups: xmlDom.getElementsByTagName('contrib'),
-            // affiliations_groups:xmlDom.getElementsByTagName('aff-alternatives'),
-            // abstracts:xmlDom.getElementsByTagName('abstract'),
-            // trans_abstracts:xmlDom.getElementsByTagName('trans-abstract'),
 
             html:{},
 
@@ -39,11 +32,11 @@
 // export const title_groups = _xmlDom.getElementsByTagName('title-group');
 //
 // export const textArr = new Array();
-// getXMLNode(article, textArr);
+// setXmlId(article, textArr);
 //
 // console.info(textArr);
 // // 递归遍历所有xml节点，并存储有用的节点
-// export function getXMLNode(xmlElement, arr) {
+// export function setXmlId(xmlElement, arr) {
 //
 //     //判断DOM有无子DOM
 //     if (xmlElement.hasChildNodes()) {
@@ -55,7 +48,7 @@
 //         }
 //         //如果有, 遍历之
 //         for (let item of xmlElement.childNodes) {
-//             this.getXMLNode(item, arr);
+//             this.setXmlId(item, arr);
 //         }
 //
 //     }
