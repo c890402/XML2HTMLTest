@@ -7,7 +7,6 @@
 
     // xml相关的基础私有变量
     const _documentId = 'data/casb15070064.xml';
-    const _xmlDom = loadXML.getXML(_documentId);
 
     const common  = win.Common = win.Common || {
 
@@ -15,13 +14,16 @@
             module:{},
 
             // 读取出所有节点并且获得叶子节点，存储起来
-            article: _xmlDom.getElementsByTagName('article')[0],
-            title_groups: _xmlDom.getElementsByTagName('title-group'),
-            contrib_groups: _xmlDom.getElementsByTagName('contrib'),
-            affiliations_groups:_xmlDom.getElementsByTagName('aff-alternatives'),
-            abstracts:_xmlDom.getElementsByTagName('abstract'),
-            trans_abstracts:_xmlDom.getElementsByTagName('trans-abstract'),
+            xml:{},
+            // xmlDom :z 在xmlRead中生成
+            article: xmlDom.getElementsByTagName('article')[0],
+            title_groups: xmlDom.getElementsByTagName('title-group'),
+            contrib_groups: xmlDom.getElementsByTagName('contrib'),
+            affiliations_groups:xmlDom.getElementsByTagName('aff-alternatives'),
+            abstracts:xmlDom.getElementsByTagName('abstract'),
+            trans_abstracts:xmlDom.getElementsByTagName('trans-abstract'),
 
+            html:{},
             // 递归遍历所有xml节点，并存储有用的节点
             getXMLNode: function (xmlElement, arr) {
 

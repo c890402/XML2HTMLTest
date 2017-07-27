@@ -5,11 +5,11 @@
 
 (function ($, win) {
     function front() {
-        this.title_groups = Common.title_groups;
-        this.contrib_groups = Common.contrib_groups;
-        this.affiliations_groups = Common.affiliations_groups;
-        this.abstracts = Common.abstracts;
-        this.trans_abstracts = Common.trans_abstracts;
+        this.title_groups = Common.xml.title_group;
+        this.contrib = Common.xml.contrib;
+        this.aff_alternatives = Common.xml.aff_alternatives;
+        this.abstract = Common.xml.abstract;
+        this.trans_abstract = Common.xml.trans_abstract;
 
     }
 
@@ -68,7 +68,7 @@
 
             // 该div内的作者名称及上标字符串拼接
             let cAuthorList = "";
-            $.each(_self.contrib_groups, function (index, contrib) {
+            $.each(_self.contrib, function (index, contrib) {
                 // 每一个带上标的作者名称
                 let xAuthor = contrib.getElementsByTagName('string-name')[0].innerHTML;
                 // 若是上标存在，则遍历后拼接到xAAuthor
@@ -81,7 +81,7 @@
                     });
                 }
                 cAuthorList += xAuthor;
-                if (index != _self.contrib_groups.length - 1) {
+                if (index != _self.contrib.length - 1) {
                     cAuthorList += ' '
                 }
             });
@@ -98,7 +98,7 @@
 
             // 该div内的机构名称
             let cAffList = "";
-            $.each(_self.affiliations_groups, function (index, xAffiliation) {
+            $.each(_self.aff_alternatives, function (index, xAffiliation) {
                 // 每一个机构
                 let xAffList = xAffiliation.getElementsByTagName('aff');
                 $.each(xAffList, function (i, xAff) {
@@ -107,7 +107,7 @@
                         cAffList += xAff.innerHTML;
                     }
                 });
-                if (index != _self.affiliations_groups.length - 1) {
+                if (index != _self.aff_alternatives.length - 1) {
                     cAffList += ';'
                 }
             });
@@ -140,9 +140,9 @@
             $('.abstract-content-1.sc-container-editor').append(cAbstractP);
 
             // 中文
-            _self._getAbstract(_self.abstracts);
+            _self._getAbstract(_self.abstract[0]);
             // 英文
-            _self._getAbstract(_self.trans_abstracts);
+            _self._getAbstract(_self.trans_abstract[0]);
 
         },
 

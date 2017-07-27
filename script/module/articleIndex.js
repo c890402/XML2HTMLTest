@@ -36,7 +36,7 @@
 
 (function ($, win) {
     function articleIndex() {
-        this.article = Common.article;
+        this.article = Common.xml.article;
     }
 
     articleIndex.prototype = {
@@ -47,9 +47,23 @@
         },
         bindEvents: function () {
             var _self = this;
+            _self.setXmlDom();
             _self.getArticle();
             _self.editArticle();
 
+        },
+        setXmlDom: function () {
+            const _self = this;
+            _self.readXml();
+            _self.formatXml();
+        },
+
+        readXml: function () {
+            new Common.module.xmlRead().init();
+        },
+
+        formatXml: function () {
+            new Common.module.xmlFormat().init();
         },
         // 添加文章的html节点
         getArticle: function () {
