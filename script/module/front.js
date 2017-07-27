@@ -140,9 +140,9 @@
             $('.abstract-content-1.sc-container-editor').append(cAbstractP);
 
             // 中文
-            _self._getAbstract(_self.abstract[0]);
+            _self._getAbstract(_self.abstract);
             // 英文
-            _self._getAbstract(_self.trans_abstract[0]);
+            _self._getAbstract(_self.trans_abstract);
 
         },
 

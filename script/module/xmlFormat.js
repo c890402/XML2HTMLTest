@@ -5,7 +5,7 @@
 
 (function ($, win) {
     function xmlFormat() {
-        this.xmlDom = Common.xmlDom;
+        this.xmlDom = Common.xml.xmlDom;
     }
 
     xmlFormat.prototype = {

@@ -36,7 +36,7 @@
 
 (function ($, win) {
     function articleIndex() {
-        this.article = Common.xml.article;
+        // this.article = Common.xml.article;
     }
 
     articleIndex.prototype = {

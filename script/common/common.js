@@ -5,10 +5,11 @@
 
 (function (win) {
 
-    // xml相关的基础私有变量
-    const _documentId = 'data/casb15070064.xml';
 
     const common  = win.Common = win.Common || {
+
+            // xml相关的基础私有变量
+            _documentId: 'data/casb15070064.xml',
 
             // 公共全局模块变量
             module:{},
@@ -16,12 +17,12 @@
             // 读取出所有节点并且获得叶子节点，存储起来
             xml:{},
             // xmlDom :z 在xmlRead中生成
-            article: xmlDom.getElementsByTagName('article')[0],
-            title_groups: xmlDom.getElementsByTagName('title-group'),
-            contrib_groups: xmlDom.getElementsByTagName('contrib'),
-            affiliations_groups:xmlDom.getElementsByTagName('aff-alternatives'),
-            abstracts:xmlDom.getElementsByTagName('abstract'),
-            trans_abstracts:xmlDom.getElementsByTagName('trans-abstract'),
+            // article: xmlDom.getElementsByTagName('article')[0],
+            // title_groups: xmlDom.getElementsByTagName('title-group'),
+            // contrib_groups: xmlDom.getElementsByTagName('contrib'),
+            // affiliations_groups:xmlDom.getElementsByTagName('aff-alternatives'),
+            // abstracts:xmlDom.getElementsByTagName('abstract'),
+            // trans_abstracts:xmlDom.getElementsByTagName('trans-abstract'),
 
             html:{},
             // 递归遍历所有xml节点，并存储有用的节点
