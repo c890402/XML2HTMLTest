@@ -50,7 +50,7 @@
             _self.setXmlDom();
             _self.getArticle();
             _self.editArticle();
-
+            _self.saveXml();
         },
         setXmlDom: function () {
             const _self = this;
@@ -96,9 +96,13 @@
             
         },
 
-        editArticle:function () {
+        editArticle: function () {
             new Common.module.edit().init();
+        },
+        saveXml:function () {
+            new Common.module.save().init();
         }
+
     }
     Common.module["articleIndex"] = articleIndex;
 })(jQuery, window);

@@ -25,7 +25,7 @@
             _self.setXmlId(_self.article);
             _self.setCommonXml();
             // 临时注释，待删除
-            console.log(Common.xml);
+            console.log(Common.xml.xmlDom);
             _self.addAttrId();
         },
 

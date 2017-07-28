@@ -5,11 +5,6 @@
 
 (function ($, win) {
     function front() {
-        this.title_groups = Common.xml.title_group;
-        this.contrib = Common.xml.contrib;
-        this.aff_alternatives = Common.xml.aff_alternatives;
-        this.abstract = Common.xml.abstract;
-        this.trans_abstract = Common.xml.trans_abstract;
 
     }
 
@@ -66,7 +61,7 @@
                 const xTransTitle = xTitleGroup.getElementsByTagName('trans-title');
                 for (const xTitle of xTransTitle) {
                     const id = xTitle.id;
-                    const cTransTitle = '<div data-path="article-trans-title-' + id + '.content" class="sc-text-property">' + xTitle.innerHTML + '</div>';
+                    const cTransTitle = '<div data-path="' + id + '.content" class="sc-text-property">' + xTitle.innerHTML + '</div>';
                     $('.se-article-title').append(cTransTitle);
                 }
                 // console.log(xArtitleTitle.innerHTML)
