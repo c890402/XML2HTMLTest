@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f2882bc-0cb5-41d2-9c98-c3c29bc2fceb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/module/save.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/demo.html" afterPath="$PROJECT_DIR$/html/demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/module/articleIndex.js" afterPath="$PROJECT_DIR$/script/module/articleIndex.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/module/edit.js" afterPath="$PROJECT_DIR$/script/module/edit.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/module/front.js" afterPath="$PROJECT_DIR$/script/module/front.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/module/xmlFormat.js" afterPath="$PROJECT_DIR$/script/module/xmlFormat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/module/save.js" afterPath="$PROJECT_DIR$/script/module/save.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +22,8 @@
       <file leaf-file-name="articleIndex.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/module/articleIndex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="99" column="41" lean-forward="false" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+            <state relative-caret-position="291">
+              <caret line="101" column="29" lean-forward="true" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -57,13 +52,10 @@
       <file leaf-file-name="front.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/module/front.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="114" column="25" lean-forward="false" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
               <folding>
                 <element signature="e#292#365#0" expanded="false" />
-                <element signature="e#2482#3697#0" expanded="false" />
-                <element signature="e#3746#4561#0" expanded="false" />
-                <element signature="e#4611#7116#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -81,13 +73,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="edit.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/module/edit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="72" column="35" lean-forward="false" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="72" column="41" lean-forward="false" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
               <folding>
-                <element signature="e#2189#2761#0" expanded="false" />
+                <element signature="e#2202#2774#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -108,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="save.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="save.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/module/save.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="340">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -219,13 +211,13 @@
         <option value="$PROJECT_DIR$/html/edit.xml" />
         <option value="$PROJECT_DIR$/script/module/xmlRead.js" />
         <option value="$PROJECT_DIR$/script/common/common.js" />
-        <option value="$PROJECT_DIR$/script/module/save.js" />
         <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/script/module/articleIndex.js" />
         <option value="$PROJECT_DIR$/html/demo.html" />
         <option value="$PROJECT_DIR$/script/module/xmlFormat.js" />
         <option value="$PROJECT_DIR$/script/module/front.js" />
         <option value="$PROJECT_DIR$/script/module/edit.js" />
+        <option value="$PROJECT_DIR$/script/module/save.js" />
       </list>
     </option>
   </component>
@@ -489,12 +481,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500861875181</updated>
-      <workItem from="1500861876512" duration="90491000" />
+      <workItem from="1500861876512" duration="90918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90491000" />
+    <option name="totallyTimeSpent" value="90918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="832" y="0" width="855" height="1017" extended-state="0" />
@@ -507,7 +499,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -709,14 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/module/save.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/introducing-texture.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -749,14 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/loadXML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/module/xmlRead.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -775,34 +751,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/module/front.js">
+    <entry file="file://$PROJECT_DIR$/script/loadXML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#292#365#0" expanded="false" />
-            <element signature="e#2482#3697#0" expanded="false" />
-            <element signature="e#3746#4561#0" expanded="false" />
-            <element signature="e#4611#7116#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/module/articleIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="99" column="41" lean-forward="false" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+        <state relative-caret-position="353">
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/module/edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="72" column="35" lean-forward="false" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="72" column="41" lean-forward="false" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
           <folding>
-            <element signature="e#2189#2761#0" expanded="false" />
+            <element signature="e#2202#2774#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/module/front.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="114" column="25" lean-forward="false" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+          <folding>
+            <element signature="e#292#365#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/module/articleIndex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="101" column="29" lean-forward="true" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/module/save.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

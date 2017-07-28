@@ -16,25 +16,15 @@
         },
         bindEvents: function () {
             const _self = this;
-            document.addEventListener("DOMSubtreeModified", function(evt) {
-                console.log(evt.target.name);
-            }, false);
             _self.saveXml();
         },
         saveXml: function () {
             const _self = this;
-
-            // document.onmouseup = function (event) {
-            //
-            //     setTimeout(function () {
-            //         _self.checkTextHighlighting(event);
-            //     }, 1);
-            // };
-
+            $('.save').on('click', function () {
+                console.info('保存新的xml：', Common.xml.xmlDom);
+            })
         },
-
-
-}
+    }
     Common.module["save"] = save;
 })(jQuery, window);
 

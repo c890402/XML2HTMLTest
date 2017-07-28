@@ -91,7 +91,7 @@
                     });
                 }
                 cAuthorList += xAuthor;
-                if (index != _self.contrib.length - 1) {
+                if (index != contrib.length - 1) {
                     cAuthorList += ' '
                 }
             });

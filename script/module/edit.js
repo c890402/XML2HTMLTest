@@ -70,7 +70,7 @@
                 const path = $(dataPathEl).attr('data-path').split('.');
                 const xmlEl = _self.xmlDom.getElementById(path[0]);
                 xmlEl.textContent = dataPathEl.innerHTML;
-                console.log(xmlEl);
+                console.info('更新后的xml节点',xmlEl);
             }
 
         },
